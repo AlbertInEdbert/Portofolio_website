@@ -1,1 +1,691 @@
-<!DOCTYPE html><html><head><title>My Portfolio</title></head><body><h1>Hello World, this is my portfolio!</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <title>Edbert's Portofolio</title>
+
+    <!-- ====== Google Fonts ====== -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+
+    <!-- ====== ALL CSS ====== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-nav">
+    
+     <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+    <!-- // Preloader -->
+    
+
+    <!-- ====== Header ====== -->
+    <header id="header" class="header">
+        <!-- ====== Navbar ====== -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand logo" href="index.html">
+                    <a class="navbar-brand logo" href="index.html"><span>Albertus Edbert</span></a>
+                </a>
+                <!-- // Logo -->
+
+                <!-- Mobile Menu -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"><span><i class="fa fa-bars"></i></span></button>
+                <!-- Mobile Menu -->
+
+                <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#service">SERVICE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link pr0" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ====== // Navbar ====== -->
+    </header>
+    <!-- ====== // Header ====== -->
+
+    <!-- ====== Hero Area ====== -->
+    <div class="hero-aria" id="home">
+        <!-- Hero Area Content -->
+        <div class="container">
+            <div class="hero-content h-100">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <h2 class="text-uppercase">Hello Everyone!</h2>
+                        <h3 class="text-uppercase"><span class="typed"></span></h3>
+                        <p>Hi, I'm Edbert — a developer who loves transforming ideas into digital reality.</p>
+                        <a href="#about" class="button smooth-scroll">About Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // Hero Area Content -->
+        <!-- Hero Area Slider -->
+        <div class="hero-area-slids owl-carousel">
+            <div class="single-slider">
+                <!-- Single Background -->
+                <div class="slider-bg" style="background-image: url('assets/images/foto-diri-homepage/20230427_101553.jpg')"></div>
+                <!-- // Single Background -->
+            </div>
+            <div class="single-slider">
+                <!-- Single Background -->
+                <div class="slider-bg" style="background-image: url('assets/images/foto-diri-homepage/20230730_141339.jpg')"></div>
+                <!-- // Single Background -->
+            </div>
+        </div>
+        <!-- // Hero Area Slider -->
+    </div>
+    <!-- ====== //Hero Area ====== -->
+
+    <!-- ====== Featured Area ====== -->
+    <section id="featured" class="section-padding pb-70">
+        <div class="container">
+            <div class="row">
+                <!-- single featured item -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-featured-item-wrap">
+                        <h3><a href="#">Artificial Intelligence (AI)</a></h3>
+                        <div class="single-featured-item">
+                            <div class="featured-icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <p>Working with Python, TensorFlow, or scikit-learn 
+                                for prediction, classification, etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single featured item -->
+                <!-- single featured item -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-featured-item-wrap">
+                        <h3><a href="#">Embedded Systems</a></h3>
+                        <div class="single-featured-item">
+                            <div class="featured-icon">
+                                <i class="fa fa-microchip"></i>
+                            </div>
+                            <p>Designing and developing hardware–software integrated solutions using 
+                                microcontrollers and sensors to create efficient, real-world systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single featured item -->
+                <!-- single featured item -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-featured-item-wrap">
+                        <h3><a href="#">Software Engineering</a></h3>
+                        <div class="single-featured-item">
+                            <div class="featured-icon">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <p>Building structured, maintainable applications 
+                                (OOP, Git, Agile)</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single featured item -->
+            </div>
+        </div>
+    </section>
+    <!-- ====== //Featured Area ====== -->
+
+    <!-- ====== About Area ====== -->
+    <section id="about" class="section-padding about-area bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>About Me</h2>
+                        <p>A Computer Science student passionate about data, AI, and intelligent systems.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-bg" style="background-image:url(assets/images/foto-diri-homepage/20230611_185453\(0\).jpg)">
+                        <!-- Social Link -->
+                        <div class="social-aria">
+                            <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <!-- // Social Link -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2>Hello, My Name Is <span>Albertus Edbert Chandrajaya</span></h2>
+                        <h4>Computer Science Student</h4>
+                        <p>My name is Albertus Edbert Chandrajaya, i am a student at 
+                            Binus University, I am 21 years old, majoring in Computer Science. 
+                            Throughout my studies, i have learnt and mastered C Lenguage, HTML, 
+                            CSS, Java, OOP, MySQL, and Python. I’m interested in data science and 
+                            exploring how AI can solve real-world problems and I love working 
+                            with hardware and creating IoT-based embedded systems. I value teamwork, 
+                            creativity, and continuous improvement. I’m looking forward to 
+                            applying my skills through internships and real-world experience.
+                        </p>
+
+                        <h5>My Skills</h5>
+
+                        <!-- Skill Area -->
+                        <div id="skills" class="skill-area">
+
+                            <!-- Single skill -->
+                            <div class="single-skill">
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Python</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                            </div>
+                            <!-- //Single skill -->
+
+                            <!-- Single skill -->
+                            <div class="single-skill">
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>HTML CSS</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+                            <!-- //Single skill -->
+
+                            <!-- Single skill -->
+                            <div class="single-skill">
+                                <div class="skillbar" data-percent="50%">
+                                    <div class="skillbar-title"><span>JS</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">50%</div>
+                                </div>
+                            </div>
+                            <!-- //Single skill -->
+
+                        </div>
+                        <!-- //Skill Area -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== // About Area ====== -->
+
+
+    <!-- ====== Fact Counter Section ====== -->
+    <!-- ====================================================================
+            NOTE: You need to change  'data-count="10"' and 'p' Eliments 
+        ===================================================================== -->
+    <section class="section-padding pb-70 bg-img fact-counter" id="counter" style="background-image: url(assets/images/fan-fact-bg.jpg)">
+        <div class="container">
+            <div class="row">
+                <!-- Single Fact Counter -->
+                <div class="col-lg-3 co col-md-6 l-md-6 text-center">
+                    <div class="single-fun-fact">
+                        <h2><span class="counter-value" data-count="7">0</span>+</h2>
+                        <p>Coding Languages Learned</p>
+                    </div>
+                </div>
+                <!-- // Single Fact Counter -->
+                <!-- Single Fact Counter -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="single-fun-fact">
+                        <h2><span class="counter-value" data-count="20">0</span>+</h2>
+                        <p>Completed Projects</p>
+                    </div>
+                </div>
+                <!-- // Single Fact Counter -->
+                <!-- Single Fact Counter -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="single-fun-fact">
+                        <h2><span class="counter-value" data-count="20">0</span>+</h2>
+                        <p>Group Projects</p>
+                    </div>
+                </div>
+                <!-- // Single Fact Counter -->
+                <!-- Single Fact Counter -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="single-fun-fact">
+                        <h2><span class="counter-value" data-count="100">0</span>+</h2>
+                        <p>Cups of Coffee</p>
+                    </div>
+                </div>
+                <!-- // Single Fact Counter -->
+            </div>
+        </div>
+    </section>
+    <!-- ====== //Fact Counter Section ====== -->
+
+    <!-- ====== Skills Section ====== -->
+    <section id="service" class="section-padding pb-70 service-area bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>Skills</h2>
+                        <p>“A blend of creativity and logic. Here are the 
+                            skills I’ve been building to turn ideas 
+                            into real solutions.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+
+            <div class="row">
+                <!-- Single Service -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <h2>Web Development</h2>
+                        <p>I enjoy turning ideas into interactive websites using HTML, CSS, 
+                            and JavaScript to create clean and user-friendly designs.
+                        </p>
+                    </div>
+                </div>
+                <!-- //Single Service -->
+                <!-- Single Service -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <i class="fa fa-microchip"></i>
+                        </div>
+                        <h2>Embedded Systems</h2>
+                        <p>I’m passionate about combining hardware and software, 
+                            building IoT projects that bring digital 
+                            intelligence to real-world devices.
+                        </p>
+                    </div>
+                </div>
+                <!-- //Single Service -->
+                <!-- Single Service -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <i class="fa fa-lightbulb"></i>
+                        </div>
+                        <h2>Problem Solving</h2>
+                        <p>I approach challenges with logic and persistence, 
+                            finding efficient and creative solutions 
+                            through coding and critical thinking.
+                        </p>
+                    </div>
+                </div>
+                <!-- //Single Service -->
+            </div>
+
+        </div>
+    </section>
+    <!-- ====== //Service Section ====== -->
+
+    <!-- ====== Why choose Me Section ====== -->
+    <section id="" class="section-padding why-choose-us pb-70">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>Why choose Me</h2>
+                        <p>A dedicated learner with a strong work ethic, 
+                            eager to grow and contribute through collaboration and persistence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+            <div class="row">
+                <!-- Single Why choose me -->
+                <div class="col-md-6">
+                    <div class="single-why-me why-me-left">
+                        <div class="why-me-icon">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <i class="fa fa-check-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Diligent and Reliable</h4>
+                        <p>I take every task seriously and always complete assignments 
+                            on time with attention to detail and consistency.</p>
+                    </div>
+                </div>
+                <!-- // Single Why choose me -->
+
+                <!-- Single Why choose me -->
+                <div class="col-md-6">
+                    <div class="single-why-me why-me-right">
+                        <div class="why-me-icon">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <i class="fa fa-comments"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Strong Communication Skills</h4>
+                        <p>I’m fluent in English and familiar with Mandarin, 
+                            allowing me to work effectively in diverse teams and 
+                            global environments.</p>
+                    </div>
+                </div>
+                <!-- // Single Why choose me -->
+
+                <!-- Single Why choose me -->
+                <div class="col-md-6">
+                    <div class="single-why-me why-me-left">
+                        <div class="why-me-icon">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Team-Oriented Mindset</h4>
+                        <p>I enjoy working in teams, sharing ideas, and collaborating 
+                            toward a common goal while maintaining a positive attitude.
+                        </p>
+                    </div>
+                </div>
+                <!-- // Single Why choose me -->
+
+                <!-- Single Why choose me -->
+                <div class="col-md-6">
+                    <div class="single-why-me why-me-right">
+                        <div class="why-me-icon">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Continuous Leaner</h4>
+                        <p>I’m passionate about improving my technical and soft skills, 
+                            always eager to learn new technologies and approaches.
+                        </p>
+                    </div>
+                </div>
+                <!-- // Single Why choose me -->
+            </div>
+        </div>
+    </section>
+    <!-- ====== //Why choose Me Section ====== -->
+
+    <!-- ====== Portfolio Section ====== -->
+    <section id="portfolio" class="section-padding pb-85 portfolio-area bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>Projects & Portofolio</h2>
+                        <p>Here are some of the projects I’ve developed throughout my studies, 
+                            both individually and as part of a team, showcasing my growth, 
+                            creativity, and hands-on experience in computer science.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+            <div class="row justify-content-center">
+                <!-- Work List Menu-->
+                <div class="col-lg-8">
+                    <div class="work-list text-center">
+                        <ul>
+                            <li class="filter" class="active" data-filter="all">ALL</li>
+                            <li class="filter" data-filter=".web">SkillSync</li>
+                            <li class="filter" data-filter=".graphic">CateriNgz</li>
+                            <!-- <li class="filter" data-filter=".logo">Logo</li>
+                            <li class="filter" data-filter=".wp">Wordpress</li>
+                            <li class="filter" data-filter=".other">Other</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- // Work List Menu -->
+            </div>
+            <div class="row portfolio">
+                <!-- Single Portfolio -->
+                <div class="col-lg-4 col-md-6 mix wp graphic">
+                    <div class="single-portfolio" style="background-image: url(assets/images/projects-portofolio/skillsync-background.png)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/projects-portofolio/skillsync-background.png"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>SkillSync</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <div class="col-lg-4 col-md-6 mix logo web graphic other wp">
+                    <div class="single-portfolio" style="background-image: url(assets/images/projects-portofolio/cateringz-background.png)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/projects-portofolio/cateringz-background.png"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>CateriNgz</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <!-- <div class="col-lg-4 col-md-6 mix wp other">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-3.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-3.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <!-- <div class="col-lg-4 col-md-6 mix logo other graphic wp web">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-4.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-4.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <!-- <div class="col-lg-4 col-md-6 mix logo other wp graphic web">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-5.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-5.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <!-- <div class="col-lg-4 col-md-6 mix wp logo graphic web">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-6.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-6.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover other">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <!-- <div class="col-lg-4 col-md-6 mix web wp">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-7.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-7.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <!-- <div class="col-lg-4 col-md-6 mix logo graphic wp web">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-8.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-8.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- // Single Portfolio -->
+                <!-- Single Portfolio -->
+                <!-- <div class="col-lg-4 col-md-6 mix other logo web">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-9.jpg)">
+                        <div class="portfolio-icon text-center">
+                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-9.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        </div>
+                        <div class="portfolio-hover">
+                            <h4>Project <span>Name</span></h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- // Single Portfolio -->
+            </div>
+        </div>
+    </section>
+    <!-- ====== // Portfolio Section ====== -->
+
+    <!-- ====== Call to Action Area ====== -->
+<section class="section-padding call-to-action-aria bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h2>Interested in working together?</h2>
+        <p>Feel free to reach out if you’d like to collaborate, 
+            discuss opportunities, or just connect. 
+            I’m always open to new experiences and learning from others!</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="cta-button">
+          <div class="d-table">
+            <div class="d-table-cell">
+              <a href="#contact" class="button smooth-scroll">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ====== // Call to Action Area ====== -->
+
+    <!-- ====== Contact Area ====== -->
+    <section id="contact" class="section-padding contact-section bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center">
+                        <h2>Get in Touch</h2>
+                        <p>I’d love to hear from you! 
+                            You can reach me through the following:
+                        </p>
+                    </div>
+
+                    <p><i class="fa fa-envelope"></i> <strong>Email:</strong> edbert204@gmail.com</p>
+                    <p><i class="fa fa-phone"></i> <strong>Phone:</strong> +62 812-7162-3508</p>
+                    <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="www.linkedin.com/in/albertus-edbert-863b55292" target="_blank">linkedin.com/in/yourprofile</a></p>
+                    <p><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/AlbertInEdbert" target="_blank">github.com/yourusername</a></p>
+                </div>
+            </div>
+            <!-- //Section Title -->
+
+            <!-- Contact Form -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- Form -->
+                    <form id="contact-form" action="mail.php" method="post" class="contact-form bg-white">
+                        <div class="row">
+                            <div class="col-lg-6 form-group">
+                                <input type="text" class="form-control" name="name" required placeholder="Name">
+                            </div>
+                            <div class="col-lg-6 form-group">
+                                <input type="email" class="form-control" name="email" required placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" required placeholder="Subject">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" id="" class="form-control" required placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-btn text-center">
+                            <button class="button" type="submit">Send Message</button>
+                            <p class="form-message"></p>
+                        </div>
+                    </form>
+                    <!-- // Form -->
+                </div>
+            </div>
+            <!-- // Contact Form -->
+        </div>
+    </section>
+    <!-- ====== // Contact Area ====== -->
+
+
+    <!-- ====== Footer Area ====== -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="copyright-text">
+                        <p class="text-white">&copy; 2018 <a href="https://www.begindot.com/">A Template Designed by Begindot</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== // Footer Area ====== -->
+
+     <!-- ====== ALL JS ====== -->
+   <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/skill.bar.js"></script>
+    <script src="assets/js/fact.counter.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
