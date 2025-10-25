@@ -247,13 +247,50 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+    /* Make the blue box cover less area */
+    .hero-aria::after {
+        width: 100%; /* full width, looks more natural on mobile */
+        height: 60%; /* only cover top 60% of screen */
+        opacity: 0.85;
+    }
+
+    /* Adjust title (logo/name) size */
+    .hero-content h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    /* Adjust subtext under Hello Everyone */
+    .hero-content p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    /* Adjust the button spacing */
+    .hero-content .button {
+        margin-top: 20px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Reduce navbar title/logo size */
+    .navbar-brand.logo img {
+        max-height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
     .hero-content h2 {
         font-size: 48px;
     }
 }
 @media (max-width: 480px) {
     .hero-content h2 {
-        font-size: 36px;
+        font-size: 28px;
+    }
+    .hero-content p {
+        font-size: 13px;
     }
 }
 
