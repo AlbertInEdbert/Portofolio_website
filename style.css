@@ -275,22 +275,24 @@ button:focus {
     }
 
     /* Reduce navbar title/logo size */
-    .navbar-brand.logo img {
-        max-height: 28px;
+    .navbar-brand.logo span {
+        font-size: 18px;
+        font-weight: 600;
     }
 }
 
-@media (max-width: 768px) {
-    .hero-content h2 {
-        font-size: 48px;
-    }
-}
 @media (max-width: 480px) {
     .hero-content h2 {
         font-size: 28px;
     }
+
     .hero-content p {
         font-size: 13px;
+    }
+
+    /* ✅ Even smaller logo text for very small screens */
+    .navbar-brand.logo span {
+        font-size: 16px;
     }
 }
 
